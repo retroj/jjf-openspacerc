@@ -74,10 +74,10 @@
     "Venus"
   ],
   "meta": {
-    "author": "OpenSpace Team",
-    "description": "This profile adds low resolution textures to the planets that do not require internet to view.",
+    "author": "John J. Foerch",
+    "description": "JJF's main profile, derived from offline.profile.",
     "license": "MIT License",
-    "name": "Offline",
+    "name": "JJF Main",
     "url": "https://www.openspaceproject.com",
     "version": "1.0"
   },
