@@ -39,13 +39,7 @@
     "scene/solarsystem/sun/glare",
     "scene/solarsystem/sun/habitablezone"
   ],
-  "mark_nodes": [
-    "Earth",
-    "Mars",
-    "Moon",
-    "Sun",
-    "Venus"
-  ],
+  "mark_nodes": [],
 
   "properties": [
   ],
