@@ -39,6 +39,23 @@
     "scene/solarsystem/sun/glare",
     "scene/solarsystem/sun/habitablezone"
   ],
+  "mark_nodes": [
+    "Earth",
+    "Mars",
+    "Moon",
+    "Sun",
+    "Venus"
+  ],
+
+  "properties": [
+  ],
+
+  "keybindings": [
+    {
+      "action": "os.ToggleShutdown",
+      "key": "CTRL+Q"
+    }
+  ],
   "delta_times": [
     1.0,
     5.0,
@@ -60,21 +77,6 @@
     157680000.0,
     315360000.0,
     630720000.0
-  ],
-  "keybindings": [
-    {
-      "action": "os.ToggleShutdown",
-      "key": "CTRL+Q"
-    }
-  ],
-  "mark_nodes": [
-    "Earth",
-    "Mars",
-    "Moon",
-    "Sun",
-    "Venus"
-  ],
-  "properties": [
   ],
 
   "camera": {
