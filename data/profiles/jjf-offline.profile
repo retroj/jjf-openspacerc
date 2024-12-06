@@ -1,4 +1,8 @@
 {
+  "version": {
+    "major": 1,
+    "minor": 4
+  },
   "assets": [
     "base_blank",
     "customization/globebrowsing",
@@ -88,9 +92,5 @@
     "is_paused": false,
     "type": "relative",
     "value": "-1d"
-  },
-  "version": {
-    "major": 1,
-    "minor": 4
   }
 }
