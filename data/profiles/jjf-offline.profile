@@ -56,6 +56,12 @@
     315360000.0,
     630720000.0
   ],
+  "keybindings": [
+    {
+      "action": "os.ToggleShutdown",
+      "key": "CTRL+Q"
+    }
+  ],
   "mark_nodes": [
     "Earth",
     "Mars",

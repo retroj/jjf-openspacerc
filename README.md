@@ -26,3 +26,8 @@ mklink /J user ../jjf-openspacerc
 ## Option 2 (if you don't want to delete your user directory)
 
 Use the environment variable OPENSPACE_USER.
+
+# Key Bindings
+
+C-q
+: os.ToggleShutdown
