@@ -3,6 +3,14 @@
     "major": 1,
     "minor": 4
   },
+  "meta": {
+    "author": "John J. Foerch",
+    "description": "JJF's main profile, derived from offline.profile.",
+    "license": "MIT License",
+    "name": "JJF Main",
+    "url": "https://www.openspaceproject.com",
+    "version": "1.0"
+  },
   "assets": [
     "base_blank",
     "customization/globebrowsing",
@@ -31,13 +39,6 @@
     "scene/solarsystem/sun/glare",
     "scene/solarsystem/sun/habitablezone"
   ],
-  "camera": {
-    "altitude": 17000000.0,
-    "anchor": "Earth",
-    "latitude": 58.5877,
-    "longitude": 16.1924,
-    "type": "goToGeo"
-  },
   "delta_times": [
     1.0,
     5.0,
@@ -73,16 +74,16 @@
     "Sun",
     "Venus"
   ],
-  "meta": {
-    "author": "John J. Foerch",
-    "description": "JJF's main profile, derived from offline.profile.",
-    "license": "MIT License",
-    "name": "JJF Main",
-    "url": "https://www.openspaceproject.com",
-    "version": "1.0"
-  },
   "properties": [
   ],
+
+  "camera": {
+    "type": "goToGeo",
+    "altitude": 17000000.0,
+    "anchor": "Earth",
+    "latitude": 58.5877,
+    "longitude": 16.1924
+  },
   "time": {
     "is_paused": false,
     "type": "relative",
