@@ -8,7 +8,7 @@
     "description": "JJF's main profile, derived from offline.profile.",
     "license": "MIT License",
     "name": "JJF Main",
-    "url": "https://www.openspaceproject.com",
+    "url": "https://github.com/retroj/jjf-openspacerc",
     "version": "1.0"
   },
   "assets": [
