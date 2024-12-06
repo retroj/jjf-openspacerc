@@ -82,11 +82,6 @@
     "version": "1.0"
   },
   "properties": [
-    {
-      "name": "Modules.SkyBrowser.Enabled",
-      "type": "setPropertyValueSingle",
-      "value": "false"
-    }
   ],
   "time": {
     "is_paused": false,
