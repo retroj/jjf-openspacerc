@@ -83,6 +83,6 @@
   "time": {
     "is_paused": false,
     "type": "relative",
-    "value": "-1d"
+    "value": "0s"
   }
 }
