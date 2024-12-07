@@ -13,6 +13,7 @@
   },
   "assets": [
     "base_blank",
+    "${USER_ASSETS}/jjf_keybindings",
     "customization/globebrowsing",
     "events/toggle_sun",
     "nightsky/nightsky",

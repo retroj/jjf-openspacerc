@@ -1,0 +1,27 @@
+-- -*- lua -*-
+
+local propertyHelper = asset.require("util/property_helper")
+
+
+local action_toggle_console = {
+  Identifier = "jjf.action_toggle_console",
+  Name = "Toggle console",
+  Command = propertyHelper.invert("LuaConsole.IsVisible"),
+  Documentation = "Shows or hides the console",
+  GuiPath = "/System/GUI",
+  IsLocal = true
+}
+
+
+
+asset.onInitialize(function ()
+      openspace.action.registerAction(action_toggle_console)
+      openspace.bindKey("Alt+X", action_toggle_console.Identifier)
+      openspace.bindKey("Ctrl+G", action_toggle_console.Identifier)
+end)
+
+asset.onDeinitialize(function ()
+      openspace.clearKey("Alt+X")
+      openspace.clearKey("Ctrl+G")
+      openspace.action.removeAction(action_toggle_console)
+end)
